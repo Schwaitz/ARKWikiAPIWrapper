@@ -1,0 +1,5 @@
+snippets/
+.idea/
+__pycache__/
+config.py
+test.py

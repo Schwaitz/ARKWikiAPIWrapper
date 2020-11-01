@@ -1,0 +1,8 @@
+# Fill out this the bot_username and bot_password fields, then rename it to config.py
+
+# Create a new Bot username and password at https://ark.gamepedia.com/Special:BotPasswords
+bot_username = "bot_name"
+bot_password = "bot_name@password"
+
+api_url = "https://ark.gamepedia.com/api.php"
+user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
