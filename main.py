@@ -4,9 +4,9 @@ from actions.ARKWiki import ARKWiki
 from classes.ManualPage import ManualPage
 from utils import file_utils, template_utils
 
-wiki = ARKWiki()
+wiki: ARKWiki = ARKWiki()
 
-lines = []
+lines: List[str] = []
 with open("items.txt", "r") as f:
     for l in f.readlines():
         lines.append(l.replace("\n", ""))
